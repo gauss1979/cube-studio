@@ -64,7 +64,7 @@ ENABLE_PROXY_FIX = False
 # GLOBALS FOR APP Builder
 # ------------------------------
 # 应用名
-APP_NAME = "Cube-Studio"
+APP_NAME = "LingXi-Studio"
 
 # 图标
 APP_ICON = "/static/assets/images/myapp-logo.png"
