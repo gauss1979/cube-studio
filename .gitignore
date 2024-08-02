@@ -6,6 +6,7 @@ myapp/static/file
 myapp/test
 #/myapp/static/appbuilder/vison/*
 /myapp/static/appbuilder/mnt
+/myapp/static/appbuilder/frontend
 # /myapp/static/appbuilder/assets/
 /images/web/target-detection/yolo/
 /install/docker/data/mysql/

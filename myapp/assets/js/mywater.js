@@ -101,7 +101,7 @@ function get_username() {
     if(!id)
         id='';
     content = username;
-    src = id+" @Cube-Studio";
+    src = id+" @灵犀深度学习平台";
     $(document).ready(function(){
         drawWaterMark({content:content,src:src});
     });

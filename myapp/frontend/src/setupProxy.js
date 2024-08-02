@@ -5,7 +5,7 @@ module.exports = function (app) {
     app.use(
         ['/workflow_modelview'],
         createProxyMiddleware({
-            target: 'http://localhost',
+            target: 'http://tmp1.lx.aiminis.com',
             changeOrigin: true,
         })
     );
@@ -13,7 +13,7 @@ module.exports = function (app) {
     app.use(
         ['**/api/**', '/myapp', '/login', '/idex'],
         createProxyMiddleware({
-            target: 'http://localhost',
+            target: 'http://tmp1.lx.aiminis.com',
             changeOrigin: true,
         })
     );
